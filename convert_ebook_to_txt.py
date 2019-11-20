@@ -59,7 +59,8 @@ if __name__ == '__main__':
     import argparse
 
     cparser = argparse.ArgumentParser(description='Convert eBooks to text files. The conversions are saved under '
-                                                  ' the same name with a .txt extension.')
+                                                  ' the same name with a .txt extension.',
+                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     cparser.add_argument('-f', '--file', help='File to convert.')
     cparser.add_argument('-d', '--directory', help='Directory to convert. All files in it with the given suffix will be'

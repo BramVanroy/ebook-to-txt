@@ -7,3 +7,5 @@ verify_ssl = true
 beautifulsoup4 = "*"
 ebooklib = "*"
 
+[dev-packages]
+pigments = "*"
